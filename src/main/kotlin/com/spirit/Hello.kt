@@ -7,6 +7,7 @@ fun main() {
 
 }
 class Human() {
+    lateinit var name : String
     fun hello() {
         println("Hello Kotlin")
     }
